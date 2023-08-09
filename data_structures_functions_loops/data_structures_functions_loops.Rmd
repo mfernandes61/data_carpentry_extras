@@ -280,8 +280,11 @@ scale_minmax(c(1, 2, Inf))
 ```
 > _Best Practices when writing functions_
 >
-> * Single function single purpose
-> 
+> * Use meaningful function names and parameter names - this helps to document your code
+> * Single function,single purpose - this helps you when writing unit tests (helpful when modifying code to check that changes have not rendered code non- or dys-functional)
+> * Aim for functions to be input/read or output/write only not both
+> * If code gets heavily "nested" with {} then consider re-factoring (rewriting) that code into new (sub)functions
+>
 
 :::exercise
 
