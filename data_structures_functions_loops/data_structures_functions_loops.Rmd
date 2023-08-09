@@ -278,6 +278,10 @@ We should now get a warning when there are infinite values, or an error if the v
 ```{r}
 scale_minmax(c(1, 2, Inf))
 ```
+> _Best Practices when writing functions_
+>
+> * Single function single purpose
+> 
 
 :::exercise
 
